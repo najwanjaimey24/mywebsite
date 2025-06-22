@@ -1,110 +1,85 @@
+<!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Resume
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Najwan Jaimey | Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
-   body {
-            font-family: 'Times New Roman', serif;
-        }
+    body {
+      font-family: 'Times New Roman', serif;
+    }
   </style>
- </head>
- <body class="p-8">
-  <div class="max-w-2xl mx-auto">
-   <div class="flex justify-between items-center mb-4">
-    <div>
-     <h1 class="text-2xl font-bold">
-      MOHAMAD NAJWAN BIN JAIMEY
-     </h1>
-     <p>
-      Universiti Teknologi PETRONAS,
-      <br/>
-      31750 Tronoh, Perak,
-      <br/>
-      MALAYSIA.
-     </p>
-    </div>
-    <div>
-    <img 
-      src="NAJWANJAIMEY.JPG" 
-      alt="Najwan Jaimey" 
-      class="w-28 h-28 object-cover rounded-lg border border-gray-300"
-    />
-    </div>
-   </div>
-   <div class="flex justify-between items-center mb-4">
-    <div>
-    </div>
-    <div class="text-right">
-     <p>
-      Mobile: +010 213 7374
-      <br/>
-      email: mohamad_24007403@utp.edu.my
-      <br/>
-      <a>Find me on <a href="https://www.linkedin.com/in/najwan-jaimey" style="color: blue;">LinkedIn</a>
+</head>
 
-     </p>
-    </div>
-   </div>
-   <hr class="border-gray-400 mb-4"/>
-   <h2 class="text-xl font-bold text-center mb-4">
-    Cybersecurity / Information security 
-   </h2>
-   <p class="mb-4">
-   I’m a passionate Information Systems student at UTP with a strong interest in cybersecurity, digital risk, and cloud infrastructure. I'm aiming to become a cybersecurity professional in the oil & gas industry..
-   </p>
-   <h3 class="text-lg font-bold mb-2">
-    Education &amp; Training
-   </h3>
-   <p class="mb-4">
-    <strong>
-     Bachelor of Information Systems with Honours (Hons)
-    </strong>
-    <br/>
-    Universiti Teknologi PETRONAS (UTP), Seri Iskandar, Perak
-    <br/>
-    Expected Graduation Date: 31st September 2027
-   </p>
-   <p class="mb-4">
-    <strong>
-     Diploma In Business Information Technology
-    </strong>
-    <br/>
-    Kolej Profesional Mara, Seri Iskandar, Perak
-    <br/>
-    August 2022 - July 2024
-    <br/>
-    CGPA: 3.66
-   </p>
-   <p class="mb-4">
-    <strong>
-     Malaysian Certificate of Education (SPM)
-    </strong>
-    <br/>
-    SMK Shahbandaraya , Klang, Selangor
-    <br/>
-    2022
-   </p>
-   <h3 class="text-lg font-bold mb-2">
-    Soft Skills
-   </h3>
-   <p class="mb-4">
-    - Skilled in decision-making, conflict resolution, and strategic planning, enabling project execution with efficiency.
-    <br/>
-    - Able to prioritize tasks effectively, ensuring efficient allocation of tasks towards group members under my leadership to maximize group productivity.
-    <br/>
-    - A strong team player committed to actively collaborating with others in driving optimal resolutions from diversified opinions.
-    <br/>
-    - Quick to embrace challenges and changes in priority, providing significant results and a high level of accuracy.
-   </p>
-   <h3 class="text-lg font-bold mb-2">
-    Skills
- </h3>
- <p class="mb-4">
-   -able to use microsoft power BI , microsoft Excel and also data analysis on SPSS . 
+<body class="bg-gray-100 text-gray-800 p-6">
+  <!-- Header & Nav -->
+  <header class="mb-6">
+    <nav class="mb-4 bg-white shadow p-4 rounded" role="navigation">
+      <ul class="flex space-x-4 text-blue-600 font-semibold">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1 class="text-3xl font-bold text-center">MOHAMAD NAJWAN BIN JAIMEY</h1>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-md">
+    <!-- About Section -->
+    <section id="about" class="mb-6">
+      <div class="flex justify-between items-center">
+        <div>
+          <p>
+            Universiti Teknologi PETRONAS,<br />
+            31750 Tronoh, Perak,<br />
+            MALAYSIA.
+          </p>
+        </div>
+        <div>
+          <img
+            src="NAJWANJAIMEY.JPG"
+            alt="Najwan Jaimey"
+            title="This is me 😎"
+            class="w-28 h-28 object-cover rounded-full border border-gray-300"
+          />
+        </div>
+      </div>
+      <p class="mt-4">
+        I’m a passionate Information Systems student at UTP with strong interest in cybersecurity, digital risk, and cloud infrastructure.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="mb-6">
+      <h2 class="text-xl font-bold mb-2">Education</h2>
+      <ul class="list-disc pl-6">
+        <li><strong>Bachelor of Information Systems (Hons)</strong> – UTP (Expected 2027)</li>
+        <li><strong>Diploma in Business Information Technology</strong> – KPM, CGPA: 3.66 (2022–2024)</li>
+        <li><strong>SPM</strong> – SMK Shahbandaraya, Klang (2022)</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="mb-6">
+      <h2 class="text-xl font-bold mb-2">Skills</h2>
+      <ul class="list-disc pl-6">
+        <li>Power BI</li>
+        <li>Microsoft Excel</li>
+        <li>SPSS (data analysis)</li>
+        <li>Cybersecurity basics</li>
+        <li>Team management & decision making</li>
+      </ul>
+    </section>
+
+  
+    <section id="contact">
+      <h2 class="text-xl font-bold mb-2">Contact Information</h2>
+      <p>
+        Mobile: +010 213 7374<br />
+        Email: mohamad_24007403@utp.edu.my<br />
+        LinkedIn: <a href="https://www.linkedin.com/in/najwan-jaimey" target="_blank" style="color: blue;">LinkedIn Profile</a>
+      </p>
+
